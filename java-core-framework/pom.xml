@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java-core</artifactId>
+        <groupId>net.ittimeline.java</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>java-core-framework</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>java-core-framework-drools</module>
+        <module>java-core-framework-dubbo</module>
+        <module>java-core-framework-mybatis</module>
+        <module>java-core-framework-spring-boot</module>
+        <module>java-core-framework-spring-cloud</module>
+        <module>java-core-framework-spring-cloud-alibaba</module>
+        <module>java-core-framework-spring-data</module>
+        <module>java-core-framework-spring-framework</module>
+        <module>java-core-framework-spring-batch</module>
+        <module>java-core-framework-sofastack</module>
+        <module>java-core-framework-spring-kafka</module>
+        <module>java-core-framework-spring-amqp</module>
+        <module>java-core-framework-spring-security</module>
+        <module>java-core-framework-activiti</module>
+    </modules>
+
+
+</project>

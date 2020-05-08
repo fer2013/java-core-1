@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java-core</artifactId>
+        <groupId>net.ittimeline.java</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>java-core-middleware</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+
+        <module>java-core-middleware-ctrip-apollo</module>
+        <module>java-core-middleware-elastic-search</module>
+        <module>java-core-middleware-xxl-job</module>
+        <module>java-core-middleware-rocketmq</module>
+        <module>java-core-middleware-sharding-sphere</module>
+        <module>java-core-middleware-skywalking</module>
+        <module>java-core-middleware-tomcat</module>
+        <module>java-core-middleware-mycat</module>
+    </modules>
+
+
+</project>

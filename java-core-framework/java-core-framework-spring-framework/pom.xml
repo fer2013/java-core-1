@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java-core-framework</artifactId>
+        <groupId>net.ittimeline.java</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>java-core-framework-spring-framework</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>java-core-framework-spring-framework-core-technologies</module>
+        <module>java-core-framework-spring-framework-testing</module>
+        <module>java-core-framework-spring-framework-data-access</module>
+        <module>java-core-framework-spring-framework-spring-mvc</module>
+        <module>java-core-framework-spring-framework-spring-webflux</module>
+        <module>java-core-framework-spring-framework-integration</module>
+        <module>java-core-framework-spring-framework-languages</module>
+    </modules>
+
+
+</project>
